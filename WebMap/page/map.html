@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9cf06786611b776db4e8c66daf5624d0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9cf06786611b776db4e8c66daf5624d0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9cf06786611b776db4e8c66daf5624d0 = L.map(
+                "map_9cf06786611b776db4e8c66daf5624d0",
+                {
+                    center: [51.673869103198385, 39.16847661268806],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c95909f5e50c1e24ad18ff061a772d13 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var feature_group_17066db82fab28b07c499e0387d0a813 = L.featureGroup(
+                {}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var marker_d8d454d9555472df2ac2fc0f48a5b26a = L.marker(
+                [51.6653421367436, 39.150209424209],
+                {}
+            ).addTo(feature_group_17066db82fab28b07c499e0387d0a813);
+        
+    
+        var popup_9c9ff0d24fdbd3dcdd23d23841a62905 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_6b491541c9a2a1c66e9563935632ce32 = $(`<div id="html_6b491541c9a2a1c66e9563935632ce32" style="width: 100.0%; height: 100.0%;">ул. Пеше-Стрелецкая, 110б, Воронеж, Воронежская обл., 394038</div>`)[0];
+                popup_9c9ff0d24fdbd3dcdd23d23841a62905.setContent(html_6b491541c9a2a1c66e9563935632ce32);
+            
+        
+
+        marker_d8d454d9555472df2ac2fc0f48a5b26a.bindPopup(popup_9c9ff0d24fdbd3dcdd23d23841a62905)
+        ;
+
+        
+    
+    
+            marker_d8d454d9555472df2ac2fc0f48a5b26a.bindTooltip(
+                `<div>
+                     Югославия
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06f01a14fbc2685c8456f79710ab9a61 = L.marker(
+                [51.6502469912129, 39.1237091990843],
+                {}
+            ).addTo(feature_group_17066db82fab28b07c499e0387d0a813);
+        
+    
+        var popup_9d2e8fdeb5bf4f6348529f500fa078a0 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ceed53c47a980d12dccb70406979cbc2 = $(`<div id="html_ceed53c47a980d12dccb70406979cbc2" style="width: 100.0%; height: 100.0%;">пр-т. Патриотов, 43 Е, Воронеж, Воронежская обл., 394065</div>`)[0];
+                popup_9d2e8fdeb5bf4f6348529f500fa078a0.setContent(html_ceed53c47a980d12dccb70406979cbc2);
+            
+        
+
+        marker_06f01a14fbc2685c8456f79710ab9a61.bindPopup(popup_9d2e8fdeb5bf4f6348529f500fa078a0)
+        ;
+
+        
+    
+    
+            marker_06f01a14fbc2685c8456f79710ab9a61.bindTooltip(
+                `<div>
+                     Бакинский дворик
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57c5874edc22161959c883f26e449035 = L.marker(
+                [51.6428040595442, 39.177160260397],
+                {}
+            ).addTo(feature_group_17066db82fab28b07c499e0387d0a813);
+        
+    
+        var popup_12e26ad4bb3d2bfbf0dbc12525f48854 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_e350777ee652c1c908d9bdfc8882995a = $(`<div id="html_e350777ee652c1c908d9bdfc8882995a" style="width: 100.0%; height: 100.0%;">ул. Краснознамённая, 101А, Воронеж, Воронежская обл., 394052</div>`)[0];
+                popup_12e26ad4bb3d2bfbf0dbc12525f48854.setContent(html_e350777ee652c1c908d9bdfc8882995a);
+            
+        
+
+        marker_57c5874edc22161959c883f26e449035.bindPopup(popup_12e26ad4bb3d2bfbf0dbc12525f48854)
+        ;
+
+        
+    
+    
+            marker_57c5874edc22161959c883f26e449035.bindTooltip(
+                `<div>
+                     Ресторан Чайка
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d826a92cf63b30b119c508eda00a0dd = L.marker(
+                [51.6757221225746, 39.1657447788105],
+                {}
+            ).addTo(feature_group_17066db82fab28b07c499e0387d0a813);
+        
+    
+        var popup_54edcd156f540ada474745fc0277761f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_f0ab151284321f6a0c9e329e3c9432a5 = $(`<div id="html_f0ab151284321f6a0c9e329e3c9432a5" style="width: 100.0%; height: 100.0%;">ул. Загородная, 3, Воронеж, Воронежская обл., 394019</div>`)[0];
+                popup_54edcd156f540ada474745fc0277761f.setContent(html_f0ab151284321f6a0c9e329e3c9432a5);
+            
+        
+
+        marker_3d826a92cf63b30b119c508eda00a0dd.bindPopup(popup_54edcd156f540ada474745fc0277761f)
+        ;
+
+        
+    
+    
+            marker_3d826a92cf63b30b119c508eda00a0dd.bindTooltip(
+                `<div>
+                     Вышеград
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_047f2b81bbc55b0105ac35ccf62b63ca = L.marker(
+                [51.6666464195037, 39.1897559139054],
+                {}
+            ).addTo(feature_group_17066db82fab28b07c499e0387d0a813);
+        
+    
+        var popup_c96f1e37cd25cedeae30fa8baac5ddaf = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b044789207571386ee7c9379735afa66 = $(`<div id="html_b044789207571386ee7c9379735afa66" style="width: 100.0%; height: 100.0%;">Никитинская ул., 52А, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_c96f1e37cd25cedeae30fa8baac5ddaf.setContent(html_b044789207571386ee7c9379735afa66);
+            
+        
+
+        marker_047f2b81bbc55b0105ac35ccf62b63ca.bindPopup(popup_c96f1e37cd25cedeae30fa8baac5ddaf)
+        ;
+
+        
+    
+    
+            marker_047f2b81bbc55b0105ac35ccf62b63ca.bindTooltip(
+                `<div>
+                     Тифлис
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a52798a9e65f559dd9709262da77d64 = L.marker(
+                [51.6711844983623, 39.1907644245462],
+                {}
+            ).addTo(feature_group_17066db82fab28b07c499e0387d0a813);
+        
+    
+        var popup_e362fd9d7e683b3ef74f45db7e7edfcb = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_dcef50e678069b3a0b22fc1c8a61f820 = $(`<div id="html_dcef50e678069b3a0b22fc1c8a61f820" style="width: 100.0%; height: 100.0%;">Плехановская ул., 22, Воронеж, Воронежская обл., 394030</div>`)[0];
+                popup_e362fd9d7e683b3ef74f45db7e7edfcb.setContent(html_dcef50e678069b3a0b22fc1c8a61f820);
+            
+        
+
+        marker_8a52798a9e65f559dd9709262da77d64.bindPopup(popup_e362fd9d7e683b3ef74f45db7e7edfcb)
+        ;
+
+        
+    
+    
+            marker_8a52798a9e65f559dd9709262da77d64.bindTooltip(
+                `<div>
+                     De Bassus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_a5ffd3054ca0b18f0cf9b92c06e64672 = L.featureGroup(
+                {}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var marker_9b4042dca768d361655254e9591f0a0c = L.marker(
+                [51.6669259038511, 39.2003774614764],
+                {}
+            ).addTo(feature_group_a5ffd3054ca0b18f0cf9b92c06e64672);
+        
+    
+        var popup_c3a9b27bb313b8d543cfd29f20568e50 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_152600639b2c03926733e973b32b9212 = $(`<div id="html_152600639b2c03926733e973b32b9212" style="width: 100.0%; height: 100.0%;">ул. Пушкинская, 5, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_c3a9b27bb313b8d543cfd29f20568e50.setContent(html_152600639b2c03926733e973b32b9212);
+            
+        
+
+        marker_9b4042dca768d361655254e9591f0a0c.bindPopup(popup_c3a9b27bb313b8d543cfd29f20568e50)
+        ;
+
+        
+    
+    
+            marker_9b4042dca768d361655254e9591f0a0c.bindTooltip(
+                `<div>
+                     Атмосферный бар Понеслось
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_74ed807341f2bd14ca0cc26be8fe5370 = L.featureGroup(
+                {}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var marker_17e823221b61a0347c00d34052d451d1 = L.marker(
+                [51.6634289863422, 39.2021011319581],
+                {}
+            ).addTo(feature_group_74ed807341f2bd14ca0cc26be8fe5370);
+        
+    
+        var popup_541762325143a9d063aabbabf3793bb4 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_663cb89a5e81b3e9714bb7468d0573a1 = $(`<div id="html_663cb89a5e81b3e9714bb7468d0573a1" style="width: 100.0%; height: 100.0%;">пл. Ленина, 15, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_541762325143a9d063aabbabf3793bb4.setContent(html_663cb89a5e81b3e9714bb7468d0573a1);
+            
+        
+
+        marker_17e823221b61a0347c00d34052d451d1.bindPopup(popup_541762325143a9d063aabbabf3793bb4)
+        ;
+
+        
+    
+    
+            marker_17e823221b61a0347c00d34052d451d1.bindTooltip(
+                `<div>
+                     Потроха
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_bcbe6df93b68ca54cec1dabc86804fb6 = L.featureGroup(
+                {}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var marker_5aa9d00247bc830909acfc2b5022a5c8 = L.marker(
+                [51.6577883319104, 39.2041493843367],
+                {}
+            ).addTo(feature_group_bcbe6df93b68ca54cec1dabc86804fb6);
+        
+    
+        var popup_4d19a1cbe9e7e96ca2745537b0fd2d13 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c59002e2d67db250a383511a0e7e462c = $(`<div id="html_c59002e2d67db250a383511a0e7e462c" style="width: 100.0%; height: 100.0%;">ул. Платонова, 4, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_4d19a1cbe9e7e96ca2745537b0fd2d13.setContent(html_c59002e2d67db250a383511a0e7e462c);
+            
+        
+
+        marker_5aa9d00247bc830909acfc2b5022a5c8.bindPopup(popup_4d19a1cbe9e7e96ca2745537b0fd2d13)
+        ;
+
+        
+    
+    
+            marker_5aa9d00247bc830909acfc2b5022a5c8.bindTooltip(
+                `<div>
+                     SKZK.REST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_8067021417ce62d587ef72880169cbab = L.featureGroup(
+                {}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var marker_83ec0c8117d9216f9152e36ee37e499b = L.marker(
+                [51.669228256337, 39.2053183930063],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_b702ba800a8c7a2d59f42c3aa4ccf12d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7b174ee7a58ba248c0ecc4c040b383a2 = $(`<div id="html_7b174ee7a58ba248c0ecc4c040b383a2" style="width: 100.0%; height: 100.0%;">Театральная ул., 23, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_b702ba800a8c7a2d59f42c3aa4ccf12d.setContent(html_7b174ee7a58ba248c0ecc4c040b383a2);
+            
+        
+
+        marker_83ec0c8117d9216f9152e36ee37e499b.bindPopup(popup_b702ba800a8c7a2d59f42c3aa4ccf12d)
+        ;
+
+        
+    
+    
+            marker_83ec0c8117d9216f9152e36ee37e499b.bindTooltip(
+                `<div>
+                     Олимп вкуса
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_642416e777e7cdb711cba13566d2e3ef = L.marker(
+                [51.6672080675144, 39.2052586960581],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_de906d2e32917349879690f6bfed9723 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_330892ebb7c87391e63bccf889b3e181 = $(`<div id="html_330892ebb7c87391e63bccf889b3e181" style="width: 100.0%; height: 100.0%;">пр. Революции, 56, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_de906d2e32917349879690f6bfed9723.setContent(html_330892ebb7c87391e63bccf889b3e181);
+            
+        
+
+        marker_642416e777e7cdb711cba13566d2e3ef.bindPopup(popup_de906d2e32917349879690f6bfed9723)
+        ;
+
+        
+    
+    
+            marker_642416e777e7cdb711cba13566d2e3ef.bindTooltip(
+                `<div>
+                     L’еx osteria & bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8b6bc01bf0834b67148fc1fdb9bf36b = L.marker(
+                [51.6683432618676, 39.2055620917753],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_3530e1fbf9fa16b5dcc865ce61f86def = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_65003b2775ce22c4ea5d701bbd5ee6c7 = $(`<div id="html_65003b2775ce22c4ea5d701bbd5ee6c7" style="width: 100.0%; height: 100.0%;">пр. Революции, 48, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_3530e1fbf9fa16b5dcc865ce61f86def.setContent(html_65003b2775ce22c4ea5d701bbd5ee6c7);
+            
+        
+
+        marker_a8b6bc01bf0834b67148fc1fdb9bf36b.bindPopup(popup_3530e1fbf9fa16b5dcc865ce61f86def)
+        ;
+
+        
+    
+    
+            marker_a8b6bc01bf0834b67148fc1fdb9bf36b.bindTooltip(
+                `<div>
+                     Biscuit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_390ab101ccc3f4cfe4d044ccc2fc7713 = L.marker(
+                [51.6706176523552, 39.2045593397322],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_b8a52127db74e863bc570c8319589f52 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_44d3e56f3d856d553570d0764632dc90 = $(`<div id="html_44d3e56f3d856d553570d0764632dc90" style="width: 100.0%; height: 100.0%;">РК Десперадо, пр. Революции, 34 А, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_b8a52127db74e863bc570c8319589f52.setContent(html_44d3e56f3d856d553570d0764632dc90);
+            
+        
+
+        marker_390ab101ccc3f4cfe4d044ccc2fc7713.bindPopup(popup_b8a52127db74e863bc570c8319589f52)
+        ;
+
+        
+    
+    
+            marker_390ab101ccc3f4cfe4d044ccc2fc7713.bindTooltip(
+                `<div>
+                     BRAZEIRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cbc9957f6827abb21b828e1d128e769 = L.marker(
+                [51.6732137401332, 39.2041262914307],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_2c8ff694666ddec5ca8e3b8b773b93df = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_fefad020640583526d865044a84d2bf5 = $(`<div id="html_fefad020640583526d865044a84d2bf5" style="width: 100.0%; height: 100.0%;">Комиссаржевской ул., 8, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_2c8ff694666ddec5ca8e3b8b773b93df.setContent(html_fefad020640583526d865044a84d2bf5);
+            
+        
+
+        marker_3cbc9957f6827abb21b828e1d128e769.bindPopup(popup_2c8ff694666ddec5ca8e3b8b773b93df)
+        ;
+
+        
+    
+    
+            marker_3cbc9957f6827abb21b828e1d128e769.bindTooltip(
+                `<div>
+                     Пельмень-Бар Олень
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbaff42b2b059d1579b7ee8d7a0eaa53 = L.marker(
+                [51.675223139304, 39.2119967924147],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_1552f7139c0a972b8b4b01ef0f2ff7db = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7e9494f225555ea49a5fe7c2f82e9977 = $(`<div id="html_7e9494f225555ea49a5fe7c2f82e9977" style="width: 100.0%; height: 100.0%;">ул. 20-летия ВЛКСМ, 54/А, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_1552f7139c0a972b8b4b01ef0f2ff7db.setContent(html_7e9494f225555ea49a5fe7c2f82e9977);
+            
+        
+
+        marker_dbaff42b2b059d1579b7ee8d7a0eaa53.bindPopup(popup_1552f7139c0a972b8b4b01ef0f2ff7db)
+        ;
+
+        
+    
+    
+            marker_dbaff42b2b059d1579b7ee8d7a0eaa53.bindTooltip(
+                `<div>
+                     Свидание на крыше 7NEBO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae1d337439139471292a8ad7c4d8a5a5 = L.marker(
+                [51.6868912575299, 39.1841447339753],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_bb796c99c24b2db7d15a10a6bfdd3773 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_7aa660acae3c0e91f379e5d0b9961554 = $(`<div id="html_7aa660acae3c0e91f379e5d0b9961554" style="width: 100.0%; height: 100.0%;">Московский просп., 9, Воронеж, Воронежская обл., 394026</div>`)[0];
+                popup_bb796c99c24b2db7d15a10a6bfdd3773.setContent(html_7aa660acae3c0e91f379e5d0b9961554);
+            
+        
+
+        marker_ae1d337439139471292a8ad7c4d8a5a5.bindPopup(popup_bb796c99c24b2db7d15a10a6bfdd3773)
+        ;
+
+        
+    
+    
+            marker_ae1d337439139471292a8ad7c4d8a5a5.bindTooltip(
+                `<div>
+                     Borjia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba8dac3fceb0d7263908e1585f8dd95d = L.marker(
+                [51.7195180786741, 39.1658198819983],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_b4e6bbb7e80220b610343dcd0cc37263 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ca4d5862b1c8f7e312ea5cacf1ae8cf7 = $(`<div id="html_ca4d5862b1c8f7e312ea5cacf1ae8cf7" style="width: 100.0%; height: 100.0%;">ул. Владимира Невского, 29, Воронеж, Воронежская обл., 394005</div>`)[0];
+                popup_b4e6bbb7e80220b610343dcd0cc37263.setContent(html_ca4d5862b1c8f7e312ea5cacf1ae8cf7);
+            
+        
+
+        marker_ba8dac3fceb0d7263908e1585f8dd95d.bindPopup(popup_b4e6bbb7e80220b610343dcd0cc37263)
+        ;
+
+        
+    
+    
+            marker_ba8dac3fceb0d7263908e1585f8dd95d.bindTooltip(
+                `<div>
+                     Plaza, ресторан
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7a433598d1852e0b35dfdd6221b026f = L.marker(
+                [51.74189841779, 39.1827229996028],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_f00ba0a7b3affc433454b48b21312292 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_c23cf56b0c19d91853ed055cfa7b8448 = $(`<div id="html_c23cf56b0c19d91853ed055cfa7b8448" style="width: 100.0%; height: 100.0%;">Московский просп., 151в, р, Воронеж, Воронежская обл., 394005</div>`)[0];
+                popup_f00ba0a7b3affc433454b48b21312292.setContent(html_c23cf56b0c19d91853ed055cfa7b8448);
+            
+        
+
+        marker_e7a433598d1852e0b35dfdd6221b026f.bindPopup(popup_f00ba0a7b3affc433454b48b21312292)
+        ;
+
+        
+    
+    
+            marker_e7a433598d1852e0b35dfdd6221b026f.bindTooltip(
+                `<div>
+                     FOrREST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76421a5893347208a6e984e51d18c29b = L.marker(
+                [51.6670989165844, 39.279513582573],
+                {}
+            ).addTo(feature_group_8067021417ce62d587ef72880169cbab);
+        
+    
+        var popup_0a42562d7c018eda2ccd0969c535a30d = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ed02185343e6b73ccd52eda06e8bef89 = $(`<div id="html_ed02185343e6b73ccd52eda06e8bef89" style="width: 100.0%; height: 100.0%;">ул. Димитрова, 112, Воронеж, Воронежская обл., 394002</div>`)[0];
+                popup_0a42562d7c018eda2ccd0969c535a30d.setContent(html_ed02185343e6b73ccd52eda06e8bef89);
+            
+        
+
+        marker_76421a5893347208a6e984e51d18c29b.bindPopup(popup_0a42562d7c018eda2ccd0969c535a30d)
+        ;
+
+        
+    
+    
+            marker_76421a5893347208a6e984e51d18c29b.bindTooltip(
+                `<div>
+                     На высоте
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_09eb878f50e8c07338a78ef19c746281 = L.featureGroup(
+                {}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var marker_54c453dc0e571696b96f2f80cc484b5c = L.marker(
+                [52.6653421367436, 40.150209424209],
+                {}
+            ).addTo(feature_group_09eb878f50e8c07338a78ef19c746281);
+        
+    
+        var popup_85ebf24c5d407f0e70a582c3bd883b5c = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_d85e84dacae3c02d98319783fe7f067a = $(`<div id="html_d85e84dacae3c02d98319783fe7f067a" style="width: 100.0%; height: 100.0%;">ул. Пеше-Стрелецкая, 110б, Воронеж, Воронежская обл., 394038</div>`)[0];
+                popup_85ebf24c5d407f0e70a582c3bd883b5c.setContent(html_d85e84dacae3c02d98319783fe7f067a);
+            
+        
+
+        marker_54c453dc0e571696b96f2f80cc484b5c.bindPopup(popup_85ebf24c5d407f0e70a582c3bd883b5c)
+        ;
+
+        
+    
+    
+            marker_54c453dc0e571696b96f2f80cc484b5c.bindTooltip(
+                `<div>
+                     Югославия
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1396b5e0096b22b2e02b433695e3551 = L.marker(
+                [53.6502469912129, 41.1237091990843],
+                {}
+            ).addTo(feature_group_09eb878f50e8c07338a78ef19c746281);
+        
+    
+        var popup_f4610f0c54700a35538abc3d61508515 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4eff2a5708c6716b3996257d7133f582 = $(`<div id="html_4eff2a5708c6716b3996257d7133f582" style="width: 100.0%; height: 100.0%;">пр-т. Патриотов, 43 Е, Воронеж, Воронежская обл., 394065</div>`)[0];
+                popup_f4610f0c54700a35538abc3d61508515.setContent(html_4eff2a5708c6716b3996257d7133f582);
+            
+        
+
+        marker_b1396b5e0096b22b2e02b433695e3551.bindPopup(popup_f4610f0c54700a35538abc3d61508515)
+        ;
+
+        
+    
+    
+            marker_b1396b5e0096b22b2e02b433695e3551.bindTooltip(
+                `<div>
+                     Бакинский дворик
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ca4f19fa0ca0dddc0d3d19b261c0d52 = L.marker(
+                [54.6351518456822, 42.0972089739596],
+                {}
+            ).addTo(feature_group_09eb878f50e8c07338a78ef19c746281);
+        
+    
+        var popup_e1a2a8974ae8ececb4bc63f5a60005d2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_cd9cef5ce494fc224368c54f0a230c3a = $(`<div id="html_cd9cef5ce494fc224368c54f0a230c3a" style="width: 100.0%; height: 100.0%;">ул. Краснознамённая, 101А, Воронеж, Воронежская обл., 394052</div>`)[0];
+                popup_e1a2a8974ae8ececb4bc63f5a60005d2.setContent(html_cd9cef5ce494fc224368c54f0a230c3a);
+            
+        
+
+        marker_1ca4f19fa0ca0dddc0d3d19b261c0d52.bindPopup(popup_e1a2a8974ae8ececb4bc63f5a60005d2)
+        ;
+
+        
+    
+    
+            marker_1ca4f19fa0ca0dddc0d3d19b261c0d52.bindTooltip(
+                `<div>
+                     Ресторан Чайка
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0536d6e7f354805c64a6d0056f9dc56d = L.marker(
+                [55.6200567001515, 43.0707087488349],
+                {}
+            ).addTo(feature_group_09eb878f50e8c07338a78ef19c746281);
+        
+    
+        var popup_5f8a3274c583810fcf098de6503874bc = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9ef8bd849a44080184fef1880bc81ae1 = $(`<div id="html_9ef8bd849a44080184fef1880bc81ae1" style="width: 100.0%; height: 100.0%;">ул. Загородная, 3, Воронеж, Воронежская обл., 394019</div>`)[0];
+                popup_5f8a3274c583810fcf098de6503874bc.setContent(html_9ef8bd849a44080184fef1880bc81ae1);
+            
+        
+
+        marker_0536d6e7f354805c64a6d0056f9dc56d.bindPopup(popup_5f8a3274c583810fcf098de6503874bc)
+        ;
+
+        
+    
+    
+            marker_0536d6e7f354805c64a6d0056f9dc56d.bindTooltip(
+                `<div>
+                     Вышеград
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf01eb8a26da340f2055881991e32347 = L.marker(
+                [56.6049615546208, 44.0442085237102],
+                {}
+            ).addTo(feature_group_09eb878f50e8c07338a78ef19c746281);
+        
+    
+        var popup_7041682412f1c37c88901a54f3d8edd4 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_21dba6d06ff4568e2bed291c05935bcd = $(`<div id="html_21dba6d06ff4568e2bed291c05935bcd" style="width: 100.0%; height: 100.0%;">Никитинская ул., 52А, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_7041682412f1c37c88901a54f3d8edd4.setContent(html_21dba6d06ff4568e2bed291c05935bcd);
+            
+        
+
+        marker_cf01eb8a26da340f2055881991e32347.bindPopup(popup_7041682412f1c37c88901a54f3d8edd4)
+        ;
+
+        
+    
+    
+            marker_cf01eb8a26da340f2055881991e32347.bindTooltip(
+                `<div>
+                     Тифлис
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6893639b4fc9454d96679df53da2c0d7 = L.marker(
+                [57.5898664090901, 45.0177082985855],
+                {}
+            ).addTo(feature_group_09eb878f50e8c07338a78ef19c746281);
+        
+    
+        var popup_33a2a77c16be6ad5022e487c2bb22686 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_b114da0821d531ea444b8a9b47ccbb6f = $(`<div id="html_b114da0821d531ea444b8a9b47ccbb6f" style="width: 100.0%; height: 100.0%;">Плехановская ул., 22, Воронеж, Воронежская обл., 394030</div>`)[0];
+                popup_33a2a77c16be6ad5022e487c2bb22686.setContent(html_b114da0821d531ea444b8a9b47ccbb6f);
+            
+        
+
+        marker_6893639b4fc9454d96679df53da2c0d7.bindPopup(popup_33a2a77c16be6ad5022e487c2bb22686)
+        ;
+
+        
+    
+    
+            marker_6893639b4fc9454d96679df53da2c0d7.bindTooltip(
+                `<div>
+                     De Bassus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7482c86bfc80037b2133c2ad50eaef54 = L.marker(
+                [58.5747712635594, 45.9912080734608],
+                {}
+            ).addTo(feature_group_09eb878f50e8c07338a78ef19c746281);
+        
+    
+        var popup_1b79bdce64c0074e4fde1a8df829ad58 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_868fd7f8157d24ac271876fc6e212b66 = $(`<div id="html_868fd7f8157d24ac271876fc6e212b66" style="width: 100.0%; height: 100.0%;">ул. Пушкинская, 5, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_1b79bdce64c0074e4fde1a8df829ad58.setContent(html_868fd7f8157d24ac271876fc6e212b66);
+            
+        
+
+        marker_7482c86bfc80037b2133c2ad50eaef54.bindPopup(popup_1b79bdce64c0074e4fde1a8df829ad58)
+        ;
+
+        
+    
+    
+            marker_7482c86bfc80037b2133c2ad50eaef54.bindTooltip(
+                `<div>
+                     Атмосферный бар Понеслось
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_e9cad78ae3dc30560ddaf777de310cee = L.featureGroup(
+                {}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+    
+            var marker_984e06a9e1ba1fe98765ea773a2dbefd = L.marker(
+                [59.5596761180287, 46.9647078483361],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_d9b2c77caa1f4069220aad14ec573249 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_8d7c72e1e4d65594d10bfd31e561a985 = $(`<div id="html_8d7c72e1e4d65594d10bfd31e561a985" style="width: 100.0%; height: 100.0%;">пл. Ленина, 15, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_d9b2c77caa1f4069220aad14ec573249.setContent(html_8d7c72e1e4d65594d10bfd31e561a985);
+            
+        
+
+        marker_984e06a9e1ba1fe98765ea773a2dbefd.bindPopup(popup_d9b2c77caa1f4069220aad14ec573249)
+        ;
+
+        
+    
+    
+            marker_984e06a9e1ba1fe98765ea773a2dbefd.bindTooltip(
+                `<div>
+                     Потроха
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5760c8892556cbd9a14b802e9e4d0aaa = L.marker(
+                [60.544580972498, 47.9382076232114],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_3b6de2e6a93cfe6f934a197966bc08d1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_acb18fdc395deab4b7110e8dddadf00c = $(`<div id="html_acb18fdc395deab4b7110e8dddadf00c" style="width: 100.0%; height: 100.0%;">ул. Платонова, 4, Воронеж, Воронежская обл., 394018</div>`)[0];
+                popup_3b6de2e6a93cfe6f934a197966bc08d1.setContent(html_acb18fdc395deab4b7110e8dddadf00c);
+            
+        
+
+        marker_5760c8892556cbd9a14b802e9e4d0aaa.bindPopup(popup_3b6de2e6a93cfe6f934a197966bc08d1)
+        ;
+
+        
+    
+    
+            marker_5760c8892556cbd9a14b802e9e4d0aaa.bindTooltip(
+                `<div>
+                     SKZK.REST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c541024a36ed0d4de7ff892b0390c9b3 = L.marker(
+                [61.5294858269674, 48.9117073980867],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_cf7c5cc126608deeec79e811fd6d2862 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_2fab90f9c13d5538b9c443e03a912687 = $(`<div id="html_2fab90f9c13d5538b9c443e03a912687" style="width: 100.0%; height: 100.0%;">Театральная ул., 23, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_cf7c5cc126608deeec79e811fd6d2862.setContent(html_2fab90f9c13d5538b9c443e03a912687);
+            
+        
+
+        marker_c541024a36ed0d4de7ff892b0390c9b3.bindPopup(popup_cf7c5cc126608deeec79e811fd6d2862)
+        ;
+
+        
+    
+    
+            marker_c541024a36ed0d4de7ff892b0390c9b3.bindTooltip(
+                `<div>
+                     Олимп вкуса
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2eeb99a1ee4d1e6309f0b30b53542de = L.marker(
+                [62.5143906814367, 49.885207172962],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_6ed54f49291c269e9c57e05b575faf8e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_55a5ced24666df68c585b81950f31fa3 = $(`<div id="html_55a5ced24666df68c585b81950f31fa3" style="width: 100.0%; height: 100.0%;">пр. Революции, 56, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_6ed54f49291c269e9c57e05b575faf8e.setContent(html_55a5ced24666df68c585b81950f31fa3);
+            
+        
+
+        marker_a2eeb99a1ee4d1e6309f0b30b53542de.bindPopup(popup_6ed54f49291c269e9c57e05b575faf8e)
+        ;
+
+        
+    
+    
+            marker_a2eeb99a1ee4d1e6309f0b30b53542de.bindTooltip(
+                `<div>
+                     L’еx osteria & bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eacde2c30d093ebf0d38f670f4e508b4 = L.marker(
+                [63.499295535906, 50.8587069478373],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_12f5dd228d8d54139ea97ad7c95da7d1 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_424cedc3d6a776b5fe47917590e21ea8 = $(`<div id="html_424cedc3d6a776b5fe47917590e21ea8" style="width: 100.0%; height: 100.0%;">пр. Революции, 48, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_12f5dd228d8d54139ea97ad7c95da7d1.setContent(html_424cedc3d6a776b5fe47917590e21ea8);
+            
+        
+
+        marker_eacde2c30d093ebf0d38f670f4e508b4.bindPopup(popup_12f5dd228d8d54139ea97ad7c95da7d1)
+        ;
+
+        
+    
+    
+            marker_eacde2c30d093ebf0d38f670f4e508b4.bindTooltip(
+                `<div>
+                     Biscuit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4369b03210c5394fe1f1743ce7e7c98b = L.marker(
+                [64.4842003903753, 51.8322067227126],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_d097991e057bef745a3d7c213b0a8af9 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_cf123230c7165234948e6da7542c5b89 = $(`<div id="html_cf123230c7165234948e6da7542c5b89" style="width: 100.0%; height: 100.0%;">РК Десперадо, пр. Революции, 34 А, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_d097991e057bef745a3d7c213b0a8af9.setContent(html_cf123230c7165234948e6da7542c5b89);
+            
+        
+
+        marker_4369b03210c5394fe1f1743ce7e7c98b.bindPopup(popup_d097991e057bef745a3d7c213b0a8af9)
+        ;
+
+        
+    
+    
+            marker_4369b03210c5394fe1f1743ce7e7c98b.bindTooltip(
+                `<div>
+                     BRAZEIRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69c8d7c6af6e5486e9582701ac45d0c6 = L.marker(
+                [65.4691052448446, 52.8057064975879],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_4ad4a317efc67476ad5ad239876cb335 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_988e3605b2c109267260aca970b6d8ee = $(`<div id="html_988e3605b2c109267260aca970b6d8ee" style="width: 100.0%; height: 100.0%;">Комиссаржевской ул., 8, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_4ad4a317efc67476ad5ad239876cb335.setContent(html_988e3605b2c109267260aca970b6d8ee);
+            
+        
+
+        marker_69c8d7c6af6e5486e9582701ac45d0c6.bindPopup(popup_4ad4a317efc67476ad5ad239876cb335)
+        ;
+
+        
+    
+    
+            marker_69c8d7c6af6e5486e9582701ac45d0c6.bindTooltip(
+                `<div>
+                     Пельмень-Бар Олень
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93e90e3a1bdc85bc067582aa3f440fcf = L.marker(
+                [66.4540100993139, 53.7792062724632],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_f64172405e1eea235b3bb098e173cfff = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_644144c17722de01d005e8b8997fa676 = $(`<div id="html_644144c17722de01d005e8b8997fa676" style="width: 100.0%; height: 100.0%;">ул. 20-летия ВЛКСМ, 54/А, Воронеж, Воронежская обл., 394036</div>`)[0];
+                popup_f64172405e1eea235b3bb098e173cfff.setContent(html_644144c17722de01d005e8b8997fa676);
+            
+        
+
+        marker_93e90e3a1bdc85bc067582aa3f440fcf.bindPopup(popup_f64172405e1eea235b3bb098e173cfff)
+        ;
+
+        
+    
+    
+            marker_93e90e3a1bdc85bc067582aa3f440fcf.bindTooltip(
+                `<div>
+                     Свидание на крыше 7NEBO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b1a4e739f5050e328b2f73e2386b2de = L.marker(
+                [67.4389149537832, 54.7527060473385],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_d890110f56647a81ea4815d4d8aa6c15 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_233d7583441b452f773c86887486eb5c = $(`<div id="html_233d7583441b452f773c86887486eb5c" style="width: 100.0%; height: 100.0%;">Московский просп., 9, Воронеж, Воронежская обл., 394026</div>`)[0];
+                popup_d890110f56647a81ea4815d4d8aa6c15.setContent(html_233d7583441b452f773c86887486eb5c);
+            
+        
+
+        marker_0b1a4e739f5050e328b2f73e2386b2de.bindPopup(popup_d890110f56647a81ea4815d4d8aa6c15)
+        ;
+
+        
+    
+    
+            marker_0b1a4e739f5050e328b2f73e2386b2de.bindTooltip(
+                `<div>
+                     Borjia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7568bb534cd3c124b0ac9ffe88758ce4 = L.marker(
+                [68.4238198082525, 55.7262058222138],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_e56096d57a2456ca033f13c16a70e3ab = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_9210bea5640e05a276e8993cf31bddb6 = $(`<div id="html_9210bea5640e05a276e8993cf31bddb6" style="width: 100.0%; height: 100.0%;">ул. Владимира Невского, 29, Воронеж, Воронежская обл., 394005</div>`)[0];
+                popup_e56096d57a2456ca033f13c16a70e3ab.setContent(html_9210bea5640e05a276e8993cf31bddb6);
+            
+        
+
+        marker_7568bb534cd3c124b0ac9ffe88758ce4.bindPopup(popup_e56096d57a2456ca033f13c16a70e3ab)
+        ;
+
+        
+    
+    
+            marker_7568bb534cd3c124b0ac9ffe88758ce4.bindTooltip(
+                `<div>
+                     Plaza, ресторан
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b23a453fcc0a7ec21f6bc41c6e067adc = L.marker(
+                [69.4087246627218, 56.6997055970891],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_db17a72c236c73c2ecccae3e20262070 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_1f332d88734c4aa38e63decb66b0f47f = $(`<div id="html_1f332d88734c4aa38e63decb66b0f47f" style="width: 100.0%; height: 100.0%;">Московский просп., 151в, р, Воронеж, Воронежская обл., 394005</div>`)[0];
+                popup_db17a72c236c73c2ecccae3e20262070.setContent(html_1f332d88734c4aa38e63decb66b0f47f);
+            
+        
+
+        marker_b23a453fcc0a7ec21f6bc41c6e067adc.bindPopup(popup_db17a72c236c73c2ecccae3e20262070)
+        ;
+
+        
+    
+    
+            marker_b23a453fcc0a7ec21f6bc41c6e067adc.bindTooltip(
+                `<div>
+                     FOrREST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_265d58fcc1b6c34504cfa20722be1bdd = L.marker(
+                [70.3936295171911, 57.6732053719644],
+                {}
+            ).addTo(feature_group_e9cad78ae3dc30560ddaf777de310cee);
+        
+    
+        var popup_5ff942b71c18ceb401c0a1de41120649 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3e17983631244c3a5799a431dabc72c9 = $(`<div id="html_3e17983631244c3a5799a431dabc72c9" style="width: 100.0%; height: 100.0%;">ул. Димитрова, 112, Воронеж, Воронежская обл., 394002</div>`)[0];
+                popup_5ff942b71c18ceb401c0a1de41120649.setContent(html_3e17983631244c3a5799a431dabc72c9);
+            
+        
+
+        marker_265d58fcc1b6c34504cfa20722be1bdd.bindPopup(popup_5ff942b71c18ceb401c0a1de41120649)
+        ;
+
+        
+    
+    
+            marker_265d58fcc1b6c34504cfa20722be1bdd.bindTooltip(
+                `<div>
+                     На высоте
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_fb570a712dfb6c3b88a440a9e23fa706 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_c95909f5e50c1e24ad18ff061a772d13,
+                },
+                overlays :  {
+                    "2021-05-04_restaurants" : feature_group_17066db82fab28b07c499e0387d0a813,
+                    "2021-05-05_restaurants" : feature_group_a5ffd3054ca0b18f0cf9b92c06e64672,
+                    "2021-05-06_restaurants" : feature_group_74ed807341f2bd14ca0cc26be8fe5370,
+                    "2021-05-07_restaurants" : feature_group_bcbe6df93b68ca54cec1dabc86804fb6,
+                    "2021-05-08_restaurants" : feature_group_8067021417ce62d587ef72880169cbab,
+                    "2023-09-10_restaurants2" : feature_group_09eb878f50e8c07338a78ef19c746281,
+                    "2023-12-20_restaurants2" : feature_group_e9cad78ae3dc30560ddaf777de310cee,
+                },
+            };
+            L.control.layers(
+                layer_control_fb570a712dfb6c3b88a440a9e23fa706.base_layers,
+                layer_control_fb570a712dfb6c3b88a440a9e23fa706.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_9cf06786611b776db4e8c66daf5624d0);
+        
+</script>
+</html>

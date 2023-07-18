@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map generator</title>
+<style>
+
+ .background{
+   background-image: url('https://jooinn.com/images/abstract-background-1.jpg');
+   background-size: cover;
+   display: flex;
+   justify-content:centr;
+   align-items: centr;
+   height: 100vh;
+
+}
+
+ .button {
+    display: block;
+    margin: 340px 0 10px 700px;
+    background-color: green;
+    background: -webkit-gradient(linear, 3 00, 0 45%, from(#00ffff), to(#f2724b));
+    color: white;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+  }
+</style>
+
+</head>
+<body>
+
+   <div class="background">
+    <button class='button' onclick="runScript()">Сгенерировать карту</button>
+   </div>
+<script>
+        function runScript(){
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET','/run_script/');
+            xhr.send()
+        }
+
+</script>
+</body>
+</html>
+
